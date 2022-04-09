@@ -56,4 +56,3 @@ String.prototype.isUpperCase = function() {
     return true
   }  
 }
-
