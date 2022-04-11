@@ -33,8 +33,8 @@ function gooseFilter(b) {
   let g = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
   for (let i = 0; i < b.length; i++){
     for (let j = 0; j < g.length; j++){
-    	console.log(`b${i}: ${b[i]}`)
-    	console.log(`g${j}: ${g[j]}`)
+    	// console.log(`b${i}: ${b[i]}`)
+    	// console.log(`g${j}: ${g[j]}`)
 	      if (b[i] === g[j]){
 	      	found = true
 	      }  
