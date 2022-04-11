@@ -153,7 +153,7 @@ console.log(well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'goo
 
 // Grasshopper - Debug sayHello
 // https://www.codewars.com/kata/5625618b1fe21ab49f00001f/train/javascript
-const sayHello = name =>`Hello, Mr. ${name}`
+const sayHello = name =>`Hello, ${name}`
 console.log(' ')
 console.log(sayHello('Mr. Spock'))
 console.log(sayHello('Captain Kirk'))
