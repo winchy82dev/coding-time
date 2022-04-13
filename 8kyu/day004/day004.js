@@ -60,3 +60,13 @@ function powersOfTwo(n){
 console.log(' ')
 console.log(0,powersOfTwo(0))
 console.log(3,powersOfTwo(3))
+
+// What's the real floor?
+// https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
+
+const getRealFloor = n => (n <= 0) ? n : (n <= 13) ? n - 1 : n - 2
+console.log(' ')
+console.log(-2,getRealFloor(-2))
+console.log(5,getRealFloor(5))
+console.log(13,getRealFloor(13))
+console.log(15,getRealFloor(15))
