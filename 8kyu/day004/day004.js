@@ -36,3 +36,11 @@ console.log(18,peopleWithAgeDrink(18))
 console.log(21,peopleWithAgeDrink(21))
 console.log(22,peopleWithAgeDrink(22))
 console.log(30,peopleWithAgeDrink(30))
+
+// How many lightsabers do you own?
+// https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/javascript
+const howManyLightsabersDoYouOwn = (name = "anyone else") => (name === 'Zach') ? 18 : 0
+
+console.log(' ')
+console.log('Zach', howManyLightsabersDoYouOwn("Zach"))
+console.log('Adam', howManyLightsabersDoYouOwn("Adam"))
