@@ -44,3 +44,19 @@ const howManyLightsabersDoYouOwn = (name = "anyone else") => (name === 'Zach') ?
 console.log(' ')
 console.log('Zach', howManyLightsabersDoYouOwn("Zach"))
 console.log('Adam', howManyLightsabersDoYouOwn("Adam"))
+
+// Powers of 2
+// https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript
+
+function powersOfTwo(n){
+  let result = []
+  // loop through n
+  // each time poser 2
+  for (let i= 0; i<=n; i++){
+    result.push(2 ** i)
+  }
+  return result
+}
+console.log(' ')
+console.log(0,powersOfTwo(0))
+console.log(3,powersOfTwo(3))
