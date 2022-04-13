@@ -15,32 +15,17 @@ console.log(highAndLow("1 2 3"))
 // https://www.codewars.com/kata/56170e844da7c6f647000063/train/javascript
 
 function peopleWithAgeDrink(old) {
-  let person = ''
+  
   if (old < 14){
-    person = "Children"
+   return 'drink toddy'
   } else if (old < 18){
-    person = 'Teens'
+    return 'drink coke'
   } else if (old < 21){
-    person = 'Young'
+    return 'drink beer'
   } else {
-    person = 'Adults'
+    return 'drink whisky'
   }
- switch(person){
-     case "Children" :
-      return 'drink toddy'
-      break
-     case 'Teens' :
-       return 'drink coke'
-       break
-     case 'Young' :
-       return 'drink beer'
-       break
-     case 'Adults' :
-       return 'drink whisky'
-       break
-     default:
-        return 'drink water'
- }
+
 };
 
 console.log(' ')
