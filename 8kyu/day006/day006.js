@@ -19,3 +19,20 @@ function between(a, b) {
 
 console.log(between(5,8))
 console.log(' ')
+
+// Multiplication table for number
+// https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/javascript
+
+function multiTable(n) {
+  let str = ''
+  for(let i = 1; i<=10 ; i++){
+    str += `${i} * ${n} = ${i*n}`
+    if (i<10){
+      str+= '\n'
+    }
+  }
+  return str
+}
+
+console.log(multiTable(6))
+console.log(' ')
